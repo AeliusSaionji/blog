@@ -80,8 +80,7 @@
 /* Link here, I just want normal bolds and italics and `code text, for now. Maybe I'll warm up to the remarkdown thing later.
 [remarkdown] em::before, [remarkdown] em::after, [remarkdown~=em-underscore] em::before, [remarkdown~=em-underscore] em::after { content: "_"; }
 [remarkdown] strong::before, [remarkdown] strong::after, [remarkdown~=strong-star] strong::before, [remarkdown~=strong-star] strong::after { content: "**"; }
-[remarkdown] :not(pre) > code::before, [remarkdown] :not(pre) > code::after, [remarkdown~=code-tick] :not(pre) > code::before, [remarkdown~=code-tick] :not(pre) > code::after { content: "`"; text-shadow: 0 1px; }
-*/
+[remarkdown] :not(pre) > code::before, [remarkdown] :not(pre) > code::after, [remarkdown~=code-tick] :not(pre) > code::before, [remarkdown~=code-tick] :not(pre) > code::after { content: "`"; text-shadow: 0 1px; } */
 [remarkdown] ul > li::before, [remarkdown~=ul-plus] ul > li::before { content: "+"; }
 [remarkdown] pre, [remarkdown~=pre-indent] pre { margin-left: 4ch; }
 [remarkdown] hr, [remarkdown~=hr-center] hr { text-align: center; }
@@ -675,6 +674,10 @@ void function toggle_those_blockquotes() {
 </script>
 {/block:IfAddCollapseButtonsToQuotes}
 
+<!--Code syntax hilighting-->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/obsidian.min.css"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script>
+<!--Code syntax hilighting-->
+
 <!--Disqus-->
 {block:IfDisqusShortname}
 
@@ -696,10 +699,6 @@ void function toggle_those_blockquotes() {
 
 {/block:IfDisqusShortname}
 <!--Disqus-->
-
-<!--Code syntax hilighting-->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/obsidian.min.css"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script>
-<!--Code syntax hilighting-->
 
 </body>
 </html>
