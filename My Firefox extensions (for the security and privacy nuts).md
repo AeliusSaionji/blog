@@ -175,12 +175,10 @@ I created a new firefox profile and was impressed with how light the newest Fire
 * Lastpass - gotta have passwords
 * Mozilla archive format - I save pages infrequently, but I want to be able to open what I have saved
 * Noscript - security
-
 * OpenDownload² - I don’t want my downloads folder getting cluttered
 * Pentadactyl - still doing most of the heavy lifting
 * Pure URL- security
 * Referrer Control - security (trying a different one on for size)
-
 * Request Policy - security
 * Session Manager - I don’t trust Firefox’s internal session management
 * Stylish, Stylish sync - because that Wikipedia theme is too sexy
