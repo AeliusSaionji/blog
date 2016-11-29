@@ -10,6 +10,6 @@ I may not stick with this solution- the clipboard register doesn’t work, and t
 
 ## Update 2016/11/29
 
-Well, I didn't really get along with WSL. I might return to it in the future, but for the time being I am using msys2. I have my binaries on `PATH` and the clipboard register works in vim, these things are well worth installing msys2 for. I've adapted my script to fit msys2's vim, and created a batch file with which I can associate file extensions. Enjoy!
+Well, I didn't really get along with WSL. I might return to it in the future, but for the time being I am using msys2. I have my binaries on `PATH` and the clipboard register works in vim; these things are well worth installing msys2 for. I've adapted my script to fit msys2's vim, and created a batch file with which I can associate file extensions. Enjoy!
 
 <https://github.com/Link-Satonaka/msysVim>
