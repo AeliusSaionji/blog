@@ -168,30 +168,30 @@ The list, in alphabetical order:
 
 ## Update - 15/05/26
 
-I created a new firefox profile and was impressed with how light the newest Firefox can be. In an attempt to keep it light, I’ve dug deep and really pruned my extensions, relying on external software where possible. The following are what I now have installed:
+I created a new firefox profile and was impressed with how light the newest Firefox can be. In an attempt to keep it light, I've dug deep and really pruned my extensions, relying on external software where possible. The following are what I now have installed:
 
 * Flashgot - grabbing videos where youtube-dl cannot.
 * Greasemonkey - Pretty much all above scripts are absolutely necessary
 * Lastpass - gotta have passwords
 * Mozilla archive format - I save pages infrequently, but I want to be able to open what I have saved
 * Noscript - security
-* OpenDownload² - I don’t want my downloads folder getting cluttered
+* OpenDownload² - I don't want my downloads folder getting cluttered
 * Pentadactyl - still doing most of the heavy lifting
 * Pure URL- security
 * Referrer Control - security (trying a different one on for size)
 * Request Policy - security
-* Session Manager - I don’t trust Firefox’s internal session management
+* Session Manager - I don't trust Firefox's internal session management
 * Stylish, Stylish sync - because that Wikipedia theme is too sexy
 
-I am trying to rely entirely on pentadactyl’s buffer interface for tab management, so I’ve removed all tab related extensions. I’ll continue to update this post as I inevitably cave and add more functionality.
+I am trying to rely entirely on pentadactyl's buffer interface for tab management, so I've removed all tab related extensions. I'll continue to update this post as I inevitably cave and add more functionality.
 
 ## Update - 15/08/10
 
-Not many changes to the formula, though I don’t know if the reason is I’m used to pentadactyl buffers, or I just do less batch image viewing/tab aggregating these days.
+Not many changes to the formula, though I don't know if the reason is I'm used to pentadactyl buffers, or I just do less batch image viewing/tab aggregating these days.
 
-* Reinstated RefControl, because Referrer Control doesn’t have import/export.
-* Removed stylish. I might be able to apply the wikipedia theme with pentadactyl, I’ll look into that soon.
-* New extension: [Open With](https://addons.mozilla.org/en-US/firefox/addon/open-with/). I’m using mpv on both Windows and Linux now- combined with youtube-dl you can pass many URLs directly to mpv and it will play any video on the page. If there’s a video on the page, I run “Open With mpv”.
+* Reinstated RefControl, because Referrer Control doesn't have import/export.
+* Removed stylish. I might be able to apply the wikipedia theme with pentadactyl, I'll look into that soon.
+* New extension: [Open With](https://addons.mozilla.org/en-US/firefox/addon/open-with/). I'm using mpv on both Windows and Linux now- combined with youtube-dl you can pass many URLs directly to mpv and it will play any video on the page. If there's a video on the page, I run "Open With mpv".
 
 ## Update - 16/11/21
 
