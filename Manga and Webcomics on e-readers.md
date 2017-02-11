@@ -1,4 +1,8 @@
-I recently discovered [Project Gutenberg](http://www.gutenberg.org/), which has inspired me to dust off my Nook Simple Touch Glowlight and load it up with reading material. Once I downloaded every title I recognized, I turned my attention to comics and manga. Many e-readers do not support `cbz`, unfortunately, which has given rise to a number of projects that convert your manga into `epub` (or whatever Amazon's proprietary format is). In years past I used [Manga to ePub](http://mangatoepub.codeplex.com/) to get the job done, but I was never impressed by that program. The next program I found, [Kindle Comic Converter](https://github.com/ciromattia/kcc) looks better and is still maintained, but unfortunately I encountered a [show stopping problem](https://github.com/ciromattia/kcc/issues/217). The developer did agree to fix this at some point in the future, but this was not my only problem with KCC. Its `ePub` files could not be opened by [zathura](https://pwmt.org/projects/zathura/), and [this snippet of text](https://github.com/ciromattia/kcc/wiki/Important-tips#metadata) generally does not fill me with confidence in the software.
+I recently discovered [Project Gutenberg](http://www.gutenberg.org/), which has inspired me to dust off my Nook Simple Touch Glowlight and load it up with reading material. Once I downloaded every title I recognized, I turned my attention to comics and manga. Many e-readers do not support `cbz`, unfortunately, which has given rise to a number of projects that convert your manga into `epub` (or whatever Amazon's proprietary format is).
+
+<!-- more -->
+
+In years past I used [Manga to ePub](http://mangatoepub.codeplex.com/) to get the job done, but I was never impressed by that program. The next program I found, [Kindle Comic Converter](https://github.com/ciromattia/kcc) looks better and is still maintained, but unfortunately I encountered a [show stopping problem](https://github.com/ciromattia/kcc/issues/217). The developer did agree to fix this at some point in the future, but this was not my only problem with KCC. Its `ePub` files could not be opened by [zathura](https://pwmt.org/projects/zathura/), and [this snippet of text](https://github.com/ciromattia/kcc/wiki/Important-tips#metadata) generally does not fill me with confidence in the software.
 
 Criticisms aside, the whole process of storing images in an `ePub` is clearly just overcomplicated, and there only exist a few small programs to do this. I hate it when my workflow relies on a single rickety and obscure program. I need to find a simpler solution. The nook's stock reader doesn't give me much to work with: as far as I know, my only options are `ePub` and `PDF`.
 
@@ -11,3 +15,7 @@ Assuming `*.png` expands to your list of images. My nook's resolution is `600x80
 There you have it; a simple, reliable, and mature, no-nonsense process to get comics into an e-reader.
 
 Alternatively, you could root your nook and use an `android 2.1` app which supports `cbz`. I couldn't find one that worked with the hardware buttons, but I do intend to contact the developer of [ComicsReader](http://dev.kervala.net/projects/comicsreader/wiki) to see if we can fix that.
+
+## Update 2017/02/11
+
+As of several days ago, not only has the KCC dev solved the nook problem, now generated `ePub` files are valid enough for `zathura` to open. These fixes are found in the dev branch at the time of writing.
