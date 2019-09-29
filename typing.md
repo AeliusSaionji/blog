@@ -33,3 +33,7 @@ nine hours in and i can hit fifty wpm sometimes on keybr
 I have been noticing a bug for a while, one that swallows space sometimes. Fixed! 9h50m in and with this bug fixed, I can now exceed 50 wpm.
 
 10 hours fifteen min I have reached 60 wpm in keybr. No wait! 67!
+
+I have been using my keyboard as my primary input for 2 months now, and I have not done any formal speed tests or training for much longer than that. There was a period of time where I did not use this keyboard at all before adopting it as my primary input. Picking it up again was not difficult.
+My rate of errors is rather high and this is frusrating. There are still times where I blank out and can't find one of the lesser used keys. I have comma, period, ? and ! where I want them, but the rest of the symbols are not as accessible as I would like them to be.
+I just tested myself on keybr and averaged 45, maxed out at 57 early on and plummeted from there. I think keybr is not reflecting real world conditions, but it does probably reflect my current wpm. Keybr made me sad so I will put it aside for now.
