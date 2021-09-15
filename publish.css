@@ -1,0 +1,4 @@
+/* Obsidian Publish don't use filename as H1 */
+.page-header {
+  display: none;
+}
